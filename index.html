@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linkedin</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -18,9 +18,14 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border">
-      <a class="navbar-brand offset-1" href="#"><i class="fab fa-linkedin fa-2x" style="color: #0A66C2;"></i></a>
+  <body class="body">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top border navbarbg">
+      <a class="navbar-brand offset-1 mb-1" href="#"
+        ><i
+          class="fab fa-linkedin fa-lg"
+          style="color: #0a66c2; font-size: 2.4rem"
+        ></i
+      ></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -29,26 +34,77 @@
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      ></button>
       <form class="form-inline my-2 my-lg-0 mr-5">
         <input
-          class="form-control mr-sm-2"
+          class="form-control mr-sm-2 searche"
           type="search"
-          placeholder="Search"
+          placeholder="      Arama Yap"
           aria-label="Search"
         />
       </form>
       <div class="collapse navbar-collapse align-items-center offset-1">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
+        <ul class="navbar-nav mr-auto ml-4 ">
+          <li class="nav-item active mr-3 ">
+            <a class="nav-link text-center" href="#"
+              ><i class="fas fa-home fa-lg" style="color: black;">
+              <div class="menutext" style="color: black;">Ana Sayfa</div></i>
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item active mr-4">
+            <a class="nav-link text-center" href="#"
+              ><i class="fas fa-user-friends fa-lg">
+              <div class="menutext">Ağım</div></i>
+            </a>
+          </li>
+          <li class="nav-item active mr-2">
+            <a class="nav-link text-center" href="#"
+              ><i class="fas fa-briefcase fa-lg">
+              <div class="menutext">İş İlanları</div></i>
+            </a>
+          </li>
+          <li class="nav-item active mr-1">
+            <a class="nav-link text-center" href="#"
+              ><i class="fas fa-comment-dots fa-lg">
+              <div class="menutext">Mesajlaşma</div></i>
+            </a>
+          </li>
+          <li class="nav-item active mr-1">
+            <a class="nav-link text-center" href="#"
+              ><i class="fas fa-bell fa-lg">
+              <div class="menutext">Bildirimler</div></i>
+            </a>
+          </li>
+          <li class="nav-item dropdown mt-1 mr-3">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA" style="border-radius: 50%; width: 25px; height: 25px;">
+              <div class="menutext" style="margin-top: 0;">Ben</div>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item active border-left">
+            <a class="nav-link text-center ml-4 mr-2" href="#"
+              ><i class="fas fa-th fa-lg">
+              <div class="menutext">İş</div></i>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-center" href="#"
+              ><i class="fas fa-chalkboard fa-lg">
+              <div class="menutext">İş İlanı Yayınla</div></i>
+            </a>
           </li>
         </ul>
       </div>
