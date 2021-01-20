@@ -10,7 +10,7 @@ input.searche {
   border: 0;
 }
 
-::placeholder {
+input.searche::placeholder {
   font-size: 14px;
   color: gray;
   background-image: url(/assets/search-solid.svg);
@@ -21,6 +21,7 @@ input.searche {
 
 .body {
   background-color: #f3f2ef;
+  padding: 110px;
 }
 
 .menutext {
@@ -42,4 +43,19 @@ i{
 }
 i:hover{
   color:black;
+}
+
+input.content {
+  border-radius: 40px;
+  height: 45px;
+
+}
+input.content::placeholder{
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.card {
+  border-radius: 10px;
 }

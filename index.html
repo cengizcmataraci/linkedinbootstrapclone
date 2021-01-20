@@ -44,38 +44,43 @@
         />
       </form>
       <div class="collapse navbar-collapse align-items-center offset-1">
-        <ul class="navbar-nav mr-auto ml-4 ">
-          <li class="nav-item active mr-3 ">
+        <ul class="navbar-nav mr-auto ml-4">
+          <li class="nav-item active mr-3">
             <a class="nav-link text-center" href="#"
-              ><i class="fas fa-home fa-lg" style="color: black;">
-              <div class="menutext" style="color: black;">Ana Sayfa</div></i>
+              ><i class="fas fa-home fa-lg" style="color: black">
+                <div class="menutext" style="color: black">Ana Sayfa</div></i
+              >
             </a>
           </li>
           <li class="nav-item active mr-4">
             <a class="nav-link text-center" href="#"
               ><i class="fas fa-user-friends fa-lg">
-              <div class="menutext">Ağım</div></i>
+                <div class="menutext">Ağım</div></i
+              >
             </a>
           </li>
           <li class="nav-item active mr-2">
             <a class="nav-link text-center" href="#"
               ><i class="fas fa-briefcase fa-lg">
-              <div class="menutext">İş İlanları</div></i>
+                <div class="menutext">İş İlanları</div></i
+              >
             </a>
           </li>
           <li class="nav-item active mr-1">
             <a class="nav-link text-center" href="#"
               ><i class="fas fa-comment-dots fa-lg">
-              <div class="menutext">Mesajlaşma</div></i>
+                <div class="menutext">Mesajlaşma</div></i
+              >
             </a>
           </li>
           <li class="nav-item active mr-1">
             <a class="nav-link text-center" href="#"
               ><i class="fas fa-bell fa-lg">
-              <div class="menutext">Bildirimler</div></i>
+                <div class="menutext">Bildirimler</div></i
+              >
             </a>
           </li>
-          <li class="nav-item dropdown mt-1 mr-3">
+          <li class="nav-item dropdown mt-1 mr-3 ml-3">
             <a
               class="nav-link"
               href="#"
@@ -85,8 +90,21 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA" style="border-radius: 50%; width: 25px; height: 25px;">
-              <div class="menutext" style="margin-top: 0;">Ben</div>
+              <img
+                src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA"
+                style="
+                  border-radius: 50%;
+                  width: 25px;
+                  height: 25px;
+                  margin-top: -3px;
+                "
+              />
+              <div
+                class="menutext"
+                style="margin-top: -2px; margin-bottom: 0; font-weight: bold"
+              >
+                Ben
+              </div>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">Action</a>
@@ -96,18 +114,85 @@
           </li>
           <li class="nav-item active border-left">
             <a class="nav-link text-center ml-4 mr-2" href="#"
-              ><i class="fas fa-th fa-lg">
-              <div class="menutext">İş</div></i>
+              ><i class="fas fa-th fa-lg"> <div class="menutext">İş</div></i>
             </a>
           </li>
           <li class="nav-item active">
             <a class="nav-link text-center" href="#"
               ><i class="fas fa-chalkboard fa-lg">
-              <div class="menutext">İş İlanı Yayınla</div></i>
+                <div class="menutext">İş İlanı Yayınla</div></i
+              >
             </a>
           </li>
         </ul>
       </div>
     </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <div class="card">
+            <!-- <img
+              src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg"
+              class="card-img-top"
+              alt="..."
+            /> -->
+            <div class="card-header text-center" style="background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg); height: 53px;"><img src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA" class="" style="border-radius: 50%; border: 2px solid white; width: 70px; height: 70px;"></div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <input type="text" class="form-control content" placeholder="Bir gönderi başlat">
+            </div>
+          </div>
+          <div>
+            <hr>
+          </div>
+          <div class="card">
+            <img
+              src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card">
+            <img
+              src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
