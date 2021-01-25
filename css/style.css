@@ -92,3 +92,9 @@ div.card {
 .sidebar {
   position: fixed;
 }
+
+.categories {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0a66c2;
+}
