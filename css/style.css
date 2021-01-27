@@ -90,7 +90,7 @@ div.card {
 }
 
 .sidebar {
-  position: fixed;
+  position: sticky;
 }
 
 .categories {
